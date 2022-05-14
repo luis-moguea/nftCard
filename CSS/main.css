@@ -1,8 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+.head {
+  padding: 60px 100px 40px 100px;
+}
+
 body {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
   background-color: #0d192b;
 }
 
@@ -10,7 +19,7 @@ section {
   border-radius: 0.7em;
   background-color: #14253d;
   position: relative;
-  left: 200px;
+  left: 650px;
   top: 0;
   right: 0;
   bottom: 0;
