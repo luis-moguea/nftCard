@@ -1,16 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 
-.head {
-    padding: 60px 100px 40px 100px;
-}
-
 
 
 body {
-    align-items: center;
-    justify-content: center;
+    position: relative;
+    background-color: hsl(217, 54%, 11%);
     align-content: center;
-    background-color: hsl(217, 54%, 11%)
+
     
 }
 
@@ -18,11 +14,8 @@ section {
 
     border-radius: 0.7em;
     background-color: hsl(216, 50%, 16%);
-    position: relative;
-    left: 650px;
-    top: 0;
-    right: 0;
-    bottom: 0;
+    position: absolute;
+    margin-left: 40%;
     width: 375px;
     height: 600px;
     
